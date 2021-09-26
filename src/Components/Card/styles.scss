@@ -1,0 +1,47 @@
+.card {
+  max-width: 34rem;
+  max-height: 42.3rem;
+  -webkit-box-shadow: 12px 10px 18px -3px rgba(0, 0, 0, 0.24);
+  box-shadow: 12px 10px 18px -3px rgba(0, 0, 0, 0.24);
+
+  .orange {
+    background-color: #ff6363;
+  }
+
+  .cyan {
+    background-color: #63ecff;
+  }
+
+  .pink {
+    background-color: #f363ff;
+  }
+
+  .green {
+    background-color: #63ff73;
+  }
+
+  .yellow {
+    background-color: #ffdd63;
+  }
+
+  .blue {
+    background-color: #6663ff;
+  }
+}
+
+.card header {
+  min-height: 22.2rem;
+}
+
+.card main {
+  min-height: 20.1rem;
+  padding: 2.4rem 3rem;
+  h1 {
+    color: #2b2b2b;
+  }
+
+  p {
+    margin-top: 2.6rem;
+    color: #555555;
+  }
+}
